@@ -112,5 +112,5 @@ inline float analytical(float x){
 }
 
 inline float logerror(float v, float u){
-    return log(abs((v-u)/u));
+    return log10(abs((v-u)/u));
 }
